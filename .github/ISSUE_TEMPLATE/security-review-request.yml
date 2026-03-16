@@ -73,14 +73,10 @@ body:
       required: true
 
 
-  - type: dropdown
+  - type: textarea
     id: timeline
     attributes:
       label: Release timeline
-      options:
-        - "ASAP (blocking release)"
-        - "Within 1 week"
-        - "Within 2 weeks"
-        - "Not urgent / informational"
+      placeholder: "Please give estimated release date"
     validations:
       required: true
